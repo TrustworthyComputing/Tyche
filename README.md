@@ -5,3 +5,5 @@ Tyche is a first look into fully homomorphic generative AI. Cloud-based generati
 Tyche is working to prevent that by using fully homomorphic encryption by allowing computations to be encrypted. Thus all inputs, outputs and computations along the way are encrypted by the user such that the AI cloud cannot leak information about them. This work evaluates several algorithms to perform probabilistic selection of outputs in generative AI models. Here, a model generates an encrypted prediction; say the next word "store" has a high probability and "elephant" has a low probability, but these probabilities are encrypted. Tyche explores algorithms to select the next *encrypted* word with the corresponding frequency.
 
 
+## Acknowledgments
+This work was supported by the National Science Foundation (Award #2239334).
